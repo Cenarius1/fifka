@@ -1,4 +1,6 @@
+import { MatchesData } from './../data/matches-data';
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'katar2022';
+  matchesData = MatchesData.MatchesData;
+
+  constructor() {
+  }
 }
+
+

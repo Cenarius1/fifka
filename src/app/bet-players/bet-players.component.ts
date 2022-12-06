@@ -20,14 +20,14 @@ export class BetPlayersComponent implements OnInit {
   @Input() betPlayerOverview: any;
   displayedColumns: string[] = ['position', 'name', 'point'];
   dataSource: BetPlayerTable[] = [
-    { position: 1, name: 'B******o',   point: 43 },
-    { position: 2, name: 'S******r',   point: 57 },
-    { position: 3, name: 'B******a', point: 36 },
-    { position: 4, name: 'G******n',   point: 44 },
-  { position: 5, name: 'G******z',  point: 42 },
-    { position: 6, name: 'V******u',   point: 37 },
-    { position: 7, name: 'G******n', point: 41 },
-    { position: 8, name: 'M******a',  point: 35 },
+    { position: 1, name: 'Ba***',   point: 43 },
+    { position: 2, name: 'Sa***',   point: 57 },
+    { position: 3, name: 'Bo***', point: 36 },
+    { position: 4, name: 'Gl***',   point: 44 },
+  { position: 5, name: 'Gr***',  point: 42 },
+    { position: 6, name: 'Ve***',   point: 37 },
+    { position: 7, name: 'Ga***', point: 41 },
+    { position: 8, name: 'Ma***',  point: 35 },
   ]
 
   sortedData: BetPlayerTable[];

@@ -73,7 +73,7 @@ export class MatchesData {
             ]
         },
         {
-            Team1: 'Maroko', Team2: 'Hiszpania', TeamScore1: -1, TeamScore2: -1, Date: new Date('2022-12-06'), BetPlayerInnerModel: [
+            Team1: 'Maroko', Team2: 'Hiszpania', TeamScore1: 0, TeamScore2: 0, Date: new Date('2022-12-06'), BetPlayerInnerModel: [
                 { position: 1, playerName: 'Ba***', TeamBetScore1: 1, TeamBetScore2: 2 },
                 { position: 2, playerName: 'Sa***', TeamBetScore1: 0, TeamBetScore2: 2 },
                 { position: 3, playerName: 'Bo***', TeamBetScore1: 1, TeamBetScore2: 2 },
@@ -85,7 +85,7 @@ export class MatchesData {
             ]
         },
         {
-            Team1: 'Portugalia', Team2: 'Szwajcaria', TeamScore1: -1, TeamScore2: -1, Date: new Date('2022-12-06'), BetPlayerInnerModel: [
+            Team1: 'Portugalia', Team2: 'Szwajcaria', TeamScore1: 6, TeamScore2: 1, Date: new Date('2022-12-06'), BetPlayerInnerModel: [
                 { position: 1, playerName: 'Ba***', TeamBetScore1: 1, TeamBetScore2: 0 },
                 { position: 2, playerName: 'Sa***', TeamBetScore1: 1, TeamBetScore2: 0 },
                 { position: 3, playerName: 'Bo***', TeamBetScore1: 2, TeamBetScore2: 1 },

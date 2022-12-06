@@ -1,4 +1,4 @@
-import { MatchesData } from './../data/matches-data';
+import { BetPlayerOverviewModel, MatchesData } from './../data/matches-data';
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
@@ -9,10 +9,10 @@ import { Router } from '@angular/router';
 })
 export class AppComponent {
   title = 'katar2022';
-  matchesData = MatchesData.MatchesData;
+  matchesData: BetPlayerOverviewModel[] = [];
 
   constructor() {
+    this.matchesData = MatchesData.MatchesData.sort((a, b) => a.Date < b.Date ? -1 : a.Date > b.Date ? 1 : 0);
+    this.matchesData.reverse();
   }
 }
-
-

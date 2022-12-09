@@ -12,12 +12,14 @@ import {HttpClientModule} from '@angular/common/http';
 import { MatchComponent } from './match/match.component';
 import { RouterModule } from '@angular/router';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { TopThreeTableComponent } from './top-three-table/top-three-table.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BetPlayersComponent,
-    MatchComponent
+    MatchComponent,
+    TopThreeTableComponent
   ],
   imports: [
     RouterModule,

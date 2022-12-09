@@ -1,0 +1,38 @@
+
+<table mat-table [dataSource]="betPlayerOverview" class="mat-elevation-z8">
+
+    <ng-container matColumnDef="position">
+        <th mat-header-cell *matHeaderCellDef> No. </th>
+        <td mat-cell *matCellDef="let element">
+            {{element.position}}
+        </td>
+    </ng-container>
+
+    <ng-container matColumnDef="name">
+        <th mat-header-cell *matHeaderCellDef> Name </th>
+        <td mat-cell *matCellDef="let element">
+            {{element.name}}
+        </td>
+    </ng-container>
+
+    <ng-container matColumnDef="top1">
+        <th mat-header-cell *matHeaderCellDef> 1st </th>
+        <td mat-cell *matCellDef="let element" [ngClass]="{'partial-win' : is1rdPlace(element.top1)}">
+            {{element.top1}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="top2">
+        <th mat-header-cell *matHeaderCellDef> 2nd </th>
+        <td mat-cell *matCellDef="let element" [ngClass]="{'partial-win' : is2rdPlace(element.top2)}">
+            {{element.top2}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="top3">
+        <th mat-header-cell *matHeaderCellDef> 3rd </th>
+        <td mat-cell *matCellDef="let element" [ngClass]="{'partial-win' : is3rdPlace(element.top3)}">
+            {{element.top3}} </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>

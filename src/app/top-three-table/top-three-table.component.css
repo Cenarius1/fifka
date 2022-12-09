@@ -1,0 +1,33 @@
+table {
+  width: 100%;
+  min-width: 300px;
+}
+
+p.thick {
+  font-weight: bold;
+}
+
+.text-style {
+  font-weight: bold;
+  margin-bottom: 1px;
+  margin-top: 1px;
+}
+
+.text-container {
+  margin-bottom: 3px;
+  margin-top: 3px;
+}
+
+.prediction-style {
+  width: 7%;
+}
+
+.partial-win {
+  background-color: #ff7a85;
+}
+
+tr {
+  /* border: 1px solid #e7e7e7; */
+  font-weight: bold;
+  height: 30px !important;
+}

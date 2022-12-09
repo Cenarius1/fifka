@@ -57,18 +57,7 @@
     opacity: 0.8;
   }
 
-  .content {
-    display: flex;
-    margin: 82px auto 32px;
-    padding: 0 16px;
-    max-width: 960px;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  @media screen and (max-width: 575px) {
-
-  }
+  @media screen and (max-width: 575px) {}
 
   .card-size {
     padding: 0px 12px 12px;
@@ -81,46 +70,52 @@
   .content-group {
     display: flex;
     justify-content: center;
-    align-content: stretch;
     flex-wrap: wrap;
+    /* padding-left: 10%; */
   }
 
-  .flex-container {
+  .summary-card {
+    align-self: flex-end;
+    flex-grow: 1;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    /* flex: 20%; */
+  }
+
+  .summary-cards {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 70px;
     display: flex;
+    justify-content: center;
+    gap: 20px;
     flex-wrap: wrap;
-    font-size: 30px;
-    text-align: center;
   }
-
-  .flex-item-left {
-  background-color: #f1f1f1;
-  padding: 10px;
-  flex: 50%;
-}
-
-.flex-item-right {
-  background-color: dodgerblue;
-  padding: 10px;
-  flex: 50%;
-}
 </style>
 
 <!-- Toolbar -->
 <div class="toolbar" role="banner">
   <span class="space-title">Katar FIFA Cup 2022</span>
 </div>
-
-<div class="content" role="main">
-  <h2>Leaders Board</h2>
-  <app-bet-players class="table-size" [betPlayerOverview]="matchesData"></app-bet-players>
+<div role="main">
+  <div class="summary-cards">
+    <div class="summary-card">
+      <h2>Leaders Board</h2>
+      <app-bet-players class="table-size" [betPlayerOverview]="matchesData"></app-bet-players>
+    </div>
+    <div class="summary-card">
+      <h2>Top Three Teams Overall</h2>
+      <app-top-three-table class="table-size" [betPlayerOverview]="topThreeData"></app-top-three-table>
+    </div>
+  </div>
 </div>
+
 
 <div class="content-group">
   <ng-container *ngFor="let item of matchesData; index as i">
     <app-match class="card-size" [betPlayerOverview]="item"></app-match>
   </ng-container>
 </div>
-
 
 
 

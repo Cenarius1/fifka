@@ -96,6 +96,137 @@ export class MatchesData {
                 { position: 8, playerName: 'Ma***', TeamBetScore1: 2, TeamBetScore2: 0 },
             ]
         },
+        {
+            Team1: 'Chorwacja', Team2: 'Brazylia', TeamScore1: 0, TeamScore2: 0, Date: new Date('2022-12-09'), BetPlayerInnerModel: [
+                { position: 1, playerName: 'Ba***', TeamBetScore1: 0, TeamBetScore2: 2 },
+                { position: 2, playerName: 'Sa***', TeamBetScore1: 1, TeamBetScore2: 0 },
+                { position: 3, playerName: 'Bo***', TeamBetScore1: 2, TeamBetScore2: 3 },
+                { position: 4, playerName: 'Gl***', TeamBetScore1: 0, TeamBetScore2: 3 },
+                { position: 5, playerName: 'Gr***', TeamBetScore1: 1, TeamBetScore2: 3 },
+                { position: 6, playerName: 'Ve***', TeamBetScore1: -1, TeamBetScore2: -1 },
+                { position: 7, playerName: 'Ga***', TeamBetScore1: 1, TeamBetScore2: 2 },
+                { position: 8, playerName: 'Ma***', TeamBetScore1: 1, TeamBetScore2: 2 },
+            ]
+        },
+        {
+            Team1: 'Holandia', Team2: 'Argentyna', TeamScore1: 2, TeamScore2: 2, Date: new Date('2022-12-09'), BetPlayerInnerModel: [
+                { position: 1, playerName: 'Ba***', TeamBetScore1: 2, TeamBetScore2: 1 },
+                { position: 2, playerName: 'Sa***', TeamBetScore1: 0, TeamBetScore2: 1 },
+                { position: 3, playerName: 'Bo***', TeamBetScore1: 1, TeamBetScore2: 2 },
+                { position: 4, playerName: 'Gl***', TeamBetScore1: 3, TeamBetScore2: 1 },
+                { position: 5, playerName: 'Gr***', TeamBetScore1: 2, TeamBetScore2: 2 },
+                { position: 6, playerName: 'Ve***', TeamBetScore1: -1, TeamBetScore2: -1 },
+                { position: 7, playerName: 'Ga***', TeamBetScore1: 1, TeamBetScore2: 2 },
+                { position: 8, playerName: 'Ma***', TeamBetScore1: 1, TeamBetScore2: 3 },
+            ]
+        },
+        // {
+        //     Team1: 'Anglia', Team2: 'Francja', TeamScore1: 0, TeamScore2: 1, Date: new Date('2022-12-10'), BetPlayerInnerModel: [
+        //         { position: 1, playerName: 'Ba***', TeamBetScore1: 2, TeamBetScore2: 1 },
+        //         { position: 2, playerName: 'Sa***', TeamBetScore1: 0, TeamBetScore2: 1 },
+        //         { position: 3, playerName: 'Bo***', TeamBetScore1: 1, TeamBetScore2: 2 },
+        //         { position: 4, playerName: 'Gl***', TeamBetScore1: 3, TeamBetScore2: 1 },
+        //         { position: 5, playerName: 'Gr***', TeamBetScore1: 2, TeamBetScore2: 2 },
+        //         { position: 6, playerName: 'Ve***', TeamBetScore1: -1, TeamBetScore2: -1 },
+        //         { position: 7, playerName: 'Ga***', TeamBetScore1: 1, TeamBetScore2: 2 },
+        //         { position: 8, playerName: 'Ma***', TeamBetScore1: 1, TeamBetScore2: 3 },
+        //     ]
+        // },
+        // {
+        //     Team1: 'Maroko', Team2: 'Portugalia', TeamScore1: 0, TeamScore2: 1, Date: new Date('2022-12-10'), BetPlayerInnerModel: [
+        //         { position: 1, playerName: 'Ba***', TeamBetScore1: 2, TeamBetScore2: 1 },
+        //         { position: 2, playerName: 'Sa***', TeamBetScore1: 0, TeamBetScore2: 1 },
+        //         { position: 3, playerName: 'Bo***', TeamBetScore1: 1, TeamBetScore2: 2 },
+        //         { position: 4, playerName: 'Gl***', TeamBetScore1: 3, TeamBetScore2: 1 },
+        //         { position: 5, playerName: 'Gr***', TeamBetScore1: 2, TeamBetScore2: 2 },
+        //         { position: 6, playerName: 'Ve***', TeamBetScore1: -1, TeamBetScore2: -1 },
+        //         { position: 7, playerName: 'Ga***', TeamBetScore1: 1, TeamBetScore2: 2 },
+        //         { position: 8, playerName: 'Ma***', TeamBetScore1: 1, TeamBetScore2: 3 },
+        //     ]
+        // },
+        // {
+        //     Team1: 'xxxxxxxxxx', Team2: 'xxxxxxxxxxxxxx', TeamScore1: 0, TeamScore2: 1, Date: new Date('2022-12-09'), BetPlayerInnerModel: [
+        //         { position: 1, playerName: 'Ba***', TeamBetScore1: 2, TeamBetScore2: 1 },
+        //         { position: 2, playerName: 'Sa***', TeamBetScore1: 0, TeamBetScore2: 1 },
+        //         { position: 3, playerName: 'Bo***', TeamBetScore1: 1, TeamBetScore2: 2 },
+        //         { position: 4, playerName: 'Gl***', TeamBetScore1: 3, TeamBetScore2: 1 },
+        //         { position: 5, playerName: 'Gr***', TeamBetScore1: 2, TeamBetScore2: 2 },
+        //         { position: 6, playerName: 'Ve***', TeamBetScore1: -1, TeamBetScore2: -1 },
+        //         { position: 7, playerName: 'Ga***', TeamBetScore1: 1, TeamBetScore2: 2 },
+        //         { position: 8, playerName: 'Ma***', TeamBetScore1: 1, TeamBetScore2: 3 },
+        //     ]
+        // },
+        // {
+        //     Team1: 'xxxxxxxxxx', Team2: 'xxxxxxxxxxxxxx', TeamScore1: 0, TeamScore2: 1, Date: new Date('2022-12-09'), BetPlayerInnerModel: [
+        //         { position: 1, playerName: 'Ba***', TeamBetScore1: 2, TeamBetScore2: 1 },
+        //         { position: 2, playerName: 'Sa***', TeamBetScore1: 0, TeamBetScore2: 1 },
+        //         { position: 3, playerName: 'Bo***', TeamBetScore1: 1, TeamBetScore2: 2 },
+        //         { position: 4, playerName: 'Gl***', TeamBetScore1: 3, TeamBetScore2: 1 },
+        //         { position: 5, playerName: 'Gr***', TeamBetScore1: 2, TeamBetScore2: 2 },
+        //         { position: 6, playerName: 'Ve***', TeamBetScore1: -1, TeamBetScore2: -1 },
+        //         { position: 7, playerName: 'Ga***', TeamBetScore1: 1, TeamBetScore2: 2 },
+        //         { position: 8, playerName: 'Ma***', TeamBetScore1: 1, TeamBetScore2: 3 },
+        //     ]
+        // },
+    ];
+
+    static TopThreeTeamsData: TopThreeTeamsModel[] = [
+        {
+            position: 1,
+            name: "Ba***",
+            top1: "Brazil",
+            top2: "Germany",
+            top3: "England",
+        },
+        {
+            position: 2,
+            name: "Sa***",
+            top1: "Argentina",
+            top2: "England",
+            top3: "Portugal",
+        },
+        {
+            position: 3,
+            name: "Bo***",
+            top1: "Germany",
+            top2: "England",
+            top3: "Croatia",
+        },
+        {
+            position: 4,
+            name: "Gl***",
+            top1: "Brazil",
+            top2: "Germany",
+            top3: "England",
+        },
+        {
+            position: 5,
+            name: "Gr***",
+            top1: "Belgium",
+            top2: "Croatia",
+            top3: "England",
+        },
+        {
+            position: 6,
+            name: "Ve***",
+            top1: "Germany",
+            top2: "Portugal",
+            top3: "Netherlands",
+        },
+        {
+            position: 7,
+            name: "Ga***",
+            top1: "Denmark",
+            top2: "Portugal",
+            top3: "Spain",
+        },
+        {
+            position: 8,
+            name: "Ma***",
+            top1: "Brazil",
+            top2: "Portugal",
+            top3: "Argentina",
+        },
     ]
 }
 
@@ -113,4 +244,12 @@ export interface BetPlayerInnerModel {
     playerName: string;
     TeamBetScore1: number;
     TeamBetScore2: number;
+}
+
+export interface TopThreeTeamsModel {
+    position: number;
+    name: string;
+    top1: string;
+    top2: string;
+    top3: string;
 }

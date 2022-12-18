@@ -11,9 +11,9 @@ export class TopThreeTableComponent implements OnInit {
 
   @Input() betPlayerOverview: any;
   displayedColumns: string[] = ['position', 'name', 'top1', 'top2', 'top3'];
-  top1Team = "";
-  top2Team = "";
-  top3Team = "";
+  top1Team = "Argentina";
+  top2Team = "France";
+  top3Team = "Croatia";
   constructor() {
   }
 

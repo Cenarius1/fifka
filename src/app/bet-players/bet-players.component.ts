@@ -21,8 +21,8 @@ export class BetPlayersComponent implements OnInit {
   displayedColumns: string[] = ['position', 'name', 'point'];
   dataSource: BetPlayerTable[] = [
     { position: 1, name: 'Ba***',   point: 43 },
-    { position: 2, name: 'Sa***',   point: 57 },
-    { position: 3, name: 'Bo***', point: 36 },
+    { position: 2, name: 'Sa***',   point: 57+8 },//+8 Sa*** for betting 1st
+    { position: 3, name: 'Bo***', point: 36 +3 },//+4 Bo*** for betting 3st
     { position: 4, name: 'Gl***',   point: 44 },
   { position: 5, name: 'Gr***',  point: 42 },
     { position: 6, name: 'Ve***',   point: 37 },
